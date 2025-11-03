@@ -13,7 +13,7 @@ export function About() {
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               Olá! Me chamo <span className="font-semibold text-blue-600 dark:text-blue-400">Daniela Thais</span>,
               desenvolvedora backend apaixonada por resolver problemas com código enquanto aprendo. Tenho 23 anos e atualmente
-              curso <span className="font-semibold">Análise e Desenvolvimento de Sistemas</span> no IESB, em Brasília, com previsão de conclusão em Julho de 2026
+              curso <span className="font-semibold">Análise e Desenvolvimento de Sistemas</span> no IESB, em Brasília, com previsão de conclusão em Julho de 2026.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
