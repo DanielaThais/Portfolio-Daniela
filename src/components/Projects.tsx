@@ -12,7 +12,7 @@ const projects = [
   {
     icon: Globe,
     title: 'Calculadora',
-    description: 'Projeto para reforçar lógica de programação e manipulação do Java. O objetivo é praticar os fundamentos da linguagem JAva, como listas, encapsulamento, estruturas de controle e organização modular.',
+    description: 'Projeto para reforçar lógica de programação e manipulação do Java. O objetivo é praticar os fundamentos da linguagem Java, como listas, encapsulamento, estruturas de controle e organização modular.',
     tech: ['Java'],
     color: 'purple',
     gitHubLink: 'https://github.com/DanielaThais/Calculadora'
