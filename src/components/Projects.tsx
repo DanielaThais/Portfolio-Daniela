@@ -4,7 +4,7 @@ const projects = [
   {
     icon: Code2,
     title: 'Sistema de Agendamento (Java CRUD)',
-    description: 'Aplicação desktop para agendamento de serviços, utilizando Java e banco de dados relacional. Interface intuitiva com operações completas de CRUD. Ainda em andamento',
+    description: 'Aplicação desktop para agendamento de serviços, utilizando Java e banco de dados relacional. Interface intuitiva com operações completas de CRUD (ainda em andamento).',
     tech: ['Java', 'MySQL', 'Swing'],
     color: 'blue',
     gitHubLink: 'https://github.com/DanielaThais/SistemaDeAgendamento'
@@ -12,7 +12,7 @@ const projects = [
   {
     icon: Globe,
     title: 'Calculadora',
-    description: 'Projeto simples para reforçar lógica de programação e manipulação do Java. O objetivo é praticar os fundamentos da linguagem JAva, como listas, encapsulamento, estruturas de controle e organização modular.',
+    description: 'Projeto para reforçar lógica de programação e manipulação do Java. O objetivo é praticar os fundamentos da linguagem JAva, como listas, encapsulamento, estruturas de controle e organização modular.',
     tech: ['Java'],
     color: 'purple',
     gitHubLink: 'https://github.com/DanielaThais/Calculadora'
@@ -57,7 +57,7 @@ export function Projects() {
         </h2>
 
         <p className="text-center text-gray-600 dark:text-gray-400 mb-16 max-w-2xl mx-auto">
-          Alguns dos projetos que desenvolvi durante minha jornada de aprendizado e experiência profissional
+          Alguns dos projetos que desenvolvi e que estou desenvolvendo durante minha jornada de aprendizado e experiência profissional.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
