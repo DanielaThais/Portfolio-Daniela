@@ -13,13 +13,14 @@ export function About() {
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               Olá! Me chamo <span className="font-semibold text-blue-600 dark:text-blue-400">Daniela Thais</span>,
               desenvolvedora backend apaixonada por resolver problemas com código enquanto aprendo. Tenho 23 anos e atualmente
-              curso <span className="font-semibold">Análise e Desenvolvimento de Sistemas</span> no IESB, em Brasília, com previsão de conclusão em Julho de 2026.
+              curso <span className="font-semibold">Análise e Desenvolvimento de Sistemas</span> no IESB, em Brasília.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              No momento, atuo como estagiária de desenvolvimento fullstack no
-              <span className="font-semibold"> Hospital das Forças Armadas</span>, onde aprimoro minhas habilidades
-              em PHP, Laravel, JavaScript (JQuery) e bancos de dados relacionais.
+              No momento, atuo como estagiária de desenvolvimento na
+              <span className="font-semibold"> MAIHUB </span>, onde aprimoro minhas habilidades
+              em n8n, agentes de IA, testes funcionais, automações, integrações de sistemas,testes de qualidade (QA), validação de funcionalidades,
+              monitoramento de performance e apoio na identificação e correção de falhas técnicas;.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -56,7 +57,13 @@ export function About() {
                     Estagiária Desenvolvimento Fullstack
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-500">
-                    Hospital das Forças Armadas (HFA)
+                    Hospital das Forças Armadas (Jul - Dez/2025)
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Estagiária Desenvolvimento
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-500">
+                    MAIHUB (Jan/2026 - Atual)
                   </p>
                 </div>
               </div>
