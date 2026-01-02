@@ -52,18 +52,21 @@ export function About() {
                   <Briefcase className="text-purple-600 dark:text-purple-400" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Experiência</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Hospital das Forças Armadas - HFA</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Estagiária Desenvolvimento Fullstack
+                    Estagiária em Desenvolvimento Fullstack
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-500">
-                    Hospital das Forças Armadas (Jul - Dez/2025)
+                    Jul - Dez (2025)
                   </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">MAIHUB</h3>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Estagiária Desenvolvimento
+                    Estagiária em Desenvolvimento e Automação
                   </p>
                   <p className="text-sm text-gray-500 dark:text-gray-500">
-                    MAIHUB (Jan/2026 - Atual)
+                    Jan - Atualmente (2026)
                   </p>
                 </div>
               </div>
