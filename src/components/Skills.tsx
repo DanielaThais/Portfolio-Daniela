@@ -28,7 +28,7 @@ const skillCategories = [
   {
     icon: Wrench,
     title: 'Ferramentas',
-    skills: ['VS Code', 'Postman', 'Docker (básico)', 'IntelliJ', 'NetBeans', 'MySQL Workbench'],
+    skills: ['VS Code', 'MySQL Workbench', 'n8n', 'Agentes de IA'],
     color: 'pink'
   }
 ];
