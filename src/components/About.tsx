@@ -60,6 +60,11 @@ export function About() {
                     Jul - Dez (2025)
                   </p>
                 </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
+                  <Briefcase className="text-purple-600 dark:text-purple-400" size={28} />
+                </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">MAIHUB</h3>
                   <p className="text-gray-600 dark:text-gray-400">
