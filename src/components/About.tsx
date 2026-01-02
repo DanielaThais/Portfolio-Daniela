@@ -20,7 +20,7 @@ export function About() {
               No momento, atuo como estagiária de desenvolvimento na
               <span className="font-semibold"> MAIHUB </span>, onde aprimoro minhas habilidades
               em n8n, agentes de IA, testes funcionais, automações, integrações de sistemas,testes de qualidade (QA), validação de funcionalidades,
-              monitoramento de performance e apoio na identificação e correção de falhas técnicas;.
+              monitoramento de performance e apoio na identificação e correção de falhas técnicas.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
