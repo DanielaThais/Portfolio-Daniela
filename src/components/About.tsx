@@ -61,6 +61,9 @@ export function About() {
                   </p>
                 </div>
               </div>
+            </div>
+            
+            <div className="p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
                   <Briefcase className="text-purple-600 dark:text-purple-400" size={28} />
