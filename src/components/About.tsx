@@ -4,7 +4,7 @@ export function About() {
   return (
     <section id="about" className="py-20 px-6">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 dark:text-white">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900 dark:text-gray-500">
           Sobre mim
         </h2>
 
@@ -12,12 +12,12 @@ export function About() {
           <div className="space-y-6 animate-fade-in-left">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               Olá! Me chamo{" "}
-              <span className="font-semibold text-blue-600 dark:text-blue-400">
+              <span className="font-semibold text-pink-600 dark:text-pink-400">
                 Daniela Thais
               </span>
               , sou desenvolvedora FullStack apaixonada por resolver problemas
               com código enquanto aprendo. Tenho 23 anos e atualmente curso{" "}
-              <span className="font-semibold text-blue-600 dark:text-blue-400">
+              <span className="font-semibold text-pink-600 dark:text-pink-400">
                 Análise e Desenvolvimento de Sistemas
               </span>{" "}
               no IESB (Instituto de Educação Superior de Brasília).
@@ -32,7 +32,7 @@ export function About() {
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               Atuei como estagiária de desenvolvimento na{" "} 
-              <span className="font-semibold text-blue-600 dark:text-blue-400">
+              <span className="font-semibold text-pink-600 dark:text-pink-400">
                 MAIHUB
               </span>
               , onde desenvolvi minhas habilidades em n8n, agentes de IA (Flowise), testes
@@ -44,7 +44,7 @@ export function About() {
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               Também tenho uma experiência prévia no{" "} 
-              <span className="font-semibold text-blue-600 dark:text-blue-400">
+              <span className="font-semibold text-pink-600 dark:text-pink-400">
                 Hospital das Forças Armadas
               </span>
               , desenvolvi competências técnicas em PHP, Laravel, arquitetura MVC e Bootstrap, aliadas a habilidades interpessoais. Essa vivência me proporcionou uma visão completa do ciclo de desenvolvimento de software, permitindo atuar não apenas na implementação, mas também na compreensão das necessidades do cliente e dos objetivos do projeto.
