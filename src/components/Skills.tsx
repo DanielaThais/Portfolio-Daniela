@@ -1,64 +1,79 @@
-import { Server, Globe, Database, GitBranch, Wrench } from 'lucide-react';
+import { Server, Globe, Database, GitBranch, Wrench, Book } from "lucide-react";
 
 const skillCategories = [
   {
     icon: Server,
-    title: 'Backend',
-    skills: ['PHP', 'Laravel', 'Java', 'Python'],
-    color: 'blue'
+    title: "Backend",
+    skills: ["PHP", "Laravel", "Java", "Python", "n8n", "Spring Boot"],
+    color: "blue",
   },
   {
     icon: Globe,
-    title: 'Frontend',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-    color: 'purple'
+    title: "Frontend",
+    skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "React", "TypeScript"],
+    color: "purple",
   },
   {
     icon: Database,
-    title: 'Banco de Dados',
-    skills: ['MySQL', 'PostgreSQL'],
-    color: 'green'
+    title: "Banco de Dados",
+    skills: ["MySQL", "PostgreSQL", "Supabase"],
+    color: "green",
   },
   {
     icon: GitBranch,
-    title: 'Versionamento',
-    skills: ['Git', 'GitHub', 'GitLab'],
-    color: 'orange'
+    title: "Versionamento",
+    skills: ["Git", "GitHub", "GitLab"],
+    color: "orange",
   },
   {
     icon: Wrench,
-    title: 'Ferramentas',
-    skills: ['VS Code', 'MySQL Workbench', 'n8n', 'Agentes de IA'],
-    color: 'pink'
-  }
+    title: "Ferramentas",
+    skills: ["VS Code", "MySQL Workbench", "n8n", "Flowise", "ClickUp"],
+    color: "pink",
+  },
+  {
+    icon: Book,
+    title: "Metodologias",
+    skills: ["Scrum", "Kanban", "MVC", "APIs REST"],
+    color: "yellow",
+  },
 ];
 
 const colorClasses = {
   blue: {
-    bg: 'bg-blue-100 dark:bg-blue-900/30',
-    text: 'text-blue-600 dark:text-blue-400',
-    badge: 'bg-blue-200 dark:bg-blue-800/50 text-blue-700 dark:text-blue-300'
+    bg: "bg-blue-100 dark:bg-blue-900/30",
+    text: "text-blue-600 dark:text-blue-400",
+    badge: "bg-blue-200 dark:bg-blue-800/50 text-blue-700 dark:text-blue-300",
   },
   purple: {
-    bg: 'bg-purple-100 dark:bg-purple-900/30',
-    text: 'text-purple-600 dark:text-purple-400',
-    badge: 'bg-purple-200 dark:bg-purple-800/50 text-purple-700 dark:text-purple-300'
-  },
-  green: {
-    bg: 'bg-green-100 dark:bg-green-900/30',
-    text: 'text-green-600 dark:text-green-400',
-    badge: 'bg-green-200 dark:bg-green-800/50 text-green-700 dark:text-green-300'
+    bg: "bg-purple-100 dark:bg-purple-900/30",
+    text: "text-purple-600 dark:text-purple-400",
+    badge:
+      "bg-purple-200 dark:bg-purple-800/50 text-purple-700 dark:text-purple-300",
   },
   orange: {
-    bg: 'bg-orange-100 dark:bg-orange-900/30',
-    text: 'text-orange-600 dark:text-orange-400',
-    badge: 'bg-orange-200 dark:bg-orange-800/50 text-orange-700 dark:text-orange-300'
+    bg: "bg-orange-100 dark:bg-orange-900/30",
+    text: "text-orange-600 dark:text-orange-400",
+    badge:
+      "bg-orange-200 dark:bg-orange-800/50 text-orange-700 dark:text-orange-300",
+  },
+  green: {
+    bg: "bg-green-100 dark:bg-green-900/30",
+    text: "text-green-600 dark:text-green-400",
+    badge:
+      "bg-green-200 dark:bg-green-800/50 text-green-700 dark:text-green-300",
   },
   pink: {
-    bg: 'bg-pink-100 dark:bg-pink-900/30',
-    text: 'text-pink-600 dark:text-pink-400',
-    badge: 'bg-pink-200 dark:bg-pink-800/50 text-pink-700 dark:text-pink-300'
-  }
+    bg: "bg-pink-100 dark:bg-pink-900/30",
+    text: "text-pink-600 dark:text-pink-400",
+    badge: "bg-pink-200 dark:bg-pink-800/50 text-pink-700 dark:text-pink-300",
+  },
+  yellow: {
+    bg: "bg-yellow-100 dark:bg-yellow-900/30",
+    text: "text-yellow-600 dark:text-yellow-400",
+    badge:
+      "bg-yellow-200 dark:bg-yellow-800/50 text-yellow-700 dark:text-yellow-300",
+  },
 };
 
 export function Skills() {
@@ -72,7 +87,8 @@ export function Skills() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => {
             const Icon = category.icon;
-            const colors = colorClasses[category.color as keyof typeof colorClasses];
+            const colors =
+              colorClasses[category.color as keyof typeof colorClasses];
 
             return (
               <div
