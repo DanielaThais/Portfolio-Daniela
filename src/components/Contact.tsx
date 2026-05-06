@@ -2,7 +2,7 @@ import { Mail, Github, Linkedin, Send } from 'lucide-react';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 px-6 bg-gray-50 dark:bg-gray-800/50">
+    <section id="contact" className="py-20 px-6">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900 dark:text-white">
           Contato
@@ -17,8 +17,8 @@ export function Contact() {
             href="mailto:daniela.thais64@gmail.com"
             className="group p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl hover:scale-105 transition-all duration-300 text-center"
           >
-            <div className="inline-flex p-4 bg-blue-100 dark:bg-blue-900/30 rounded-full mb-4 group-hover:bg-blue-200 dark:group-hover:bg-blue-900/50 transition-colors">
-              <Mail className="text-blue-600 dark:text-blue-400" size={32} />
+            <div className="inline-flex p-4 bg-pink-100 dark:bg-pink-900/30 rounded-full mb-4 group-hover:bg-pink-200 dark:group-hover:bg-pink-900/50 transition-colors">
+              <Mail className="text-pink-600 dark:text-pink-400" size={32} />
             </div>
             <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">
               E-mail
@@ -66,7 +66,7 @@ export function Contact() {
         <div className="mt-12 text-center">
           <a
             href="mailto:daniela.thais64@gmail.com"
-            className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300"
           >
             <Send size={20} />
             Enviar mensagem

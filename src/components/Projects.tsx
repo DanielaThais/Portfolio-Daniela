@@ -1,16 +1,16 @@
-import { Code2, Globe, Target, ExternalLink } from 'lucide-react';
+import { User, Calculator, Shield, GraduationCap, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    icon: Code2,
-    title: 'Sistema de Agendamento (Java CRUD)',
-    description: 'Aplicação desktop para agendamento de serviços, utilizando Java e banco de dados relacional. Interface intuitiva com operações completas de CRUD (ainda em andamento).',
-    tech: ['Java', 'MySQL', 'Swing'],
+    icon: User,
+    title: 'Projeto Conta no Banco',
+    description: 'CRUD para sistema de conta no banco, onde é permitido fazer o depósito de determinado valor após o cadastro. O objetivo é praticar conceitos inicias de entradas de dados com Scanner, tipos primitivos, estruturas básicas e exibição de mensagens no terminal.',
+    tech: ['Java'],
     color: 'blue',
-    gitHubLink: 'https://github.com/DanielaThais/SistemaDeAgendamento'
+    gitHubLink: 'https://github.com/DanielaThais/Projeto-Conta-Banco'
   },
   {
-    icon: Globe,
+    icon: Calculator,
     title: 'Calculadora',
     description: 'Projeto para reforçar lógica de programação e manipulação do Java. O objetivo é praticar os fundamentos da linguagem Java, como listas, encapsulamento, estruturas de controle e organização modular.',
     tech: ['Java'],
@@ -18,12 +18,20 @@ const projects = [
     gitHubLink: 'https://github.com/DanielaThais/Calculadora'
   },
   {
-    icon: Target,
-    title: 'Gestão de Jogos (projeto-app)',
-    description: 'CRUD básico feito em PHP e Laravel, estilizado através do Bootstrap, utilizado para cadastrar, visualizar, editar e excluir jogos cadastrados pelo usuário.',
-    tech: ['PHP', 'Laravel', 'MySQL', 'Bootstrap'],
+    icon: Shield,
+    title: 'Guardião DF',
+    description: 'Projeto feito para o Hackathon Participa DF, que objetiva aproximar governo e sociedade por meio da tecnologia e incentivar soluções inovadoras para fortalecer a transparência e a participação cidadã. Para este caso, o modelo será capaz de identificar automaticamente pedidos públicos que contenham dados pessoais.',
+    tech: ['PHP', 'Laravel', 'MySQL', 'Bootstrap', 'Blade', 'JavaScript', 'CSS'],
     color: 'green',
-    gitHubLink: 'https://github.com/DanielaThais/projeto-app'
+    gitHubLink: 'https://github.com/DanielaThais/guardiao-df'
+  },
+   {
+    icon: GraduationCap,
+    title: 'Inscrição em Bootcamp',
+    description: 'Projeto em Java que simula um ambiente de bootcamp, com classes como Bootcamp, Curso, Mentoria, Aluno/Dev e Professor. A aplicação permite representar a inscrição e evolução dos alunos nos conteúdos, refletindo um cenário real de aprendizado. O foco principal é aplicar, na prática, os pilares da Programação Orientada a Objetos como abstração, encapsulamento, herança e polimorfismo.',
+    tech: ['Java'],
+    color: 'pink',
+    gitHubLink: 'https://github.com/DanielaThais/desafio-dio-POO'
   }
 ];
 
@@ -45,6 +53,12 @@ const colorClasses = {
     text: 'text-green-600 dark:text-green-400',
     badge: 'bg-green-200 dark:bg-green-800/50 text-green-700 dark:text-green-300',
     gradient: 'from-green-500 to-green-600'
+  },
+  pink: {
+    bg: 'bg-pink-100 dark:bg-pink-900/30',
+    text: 'text-pink-600 dark:text-pink-400',
+    badge: 'bg-pink-200 dark:bg-pink-800/50 text-pink-700 dark:text-pink-300',
+    gradient: 'from-pink-500 to-pink-600'
   }
 };
 
@@ -78,7 +92,7 @@ export function Projects() {
                     <Icon className={colors.text} size={28} />
                   </div>
 
-                  <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
                     {project.title}
                   </h3>
 
@@ -101,7 +115,7 @@ export function Projects() {
                     href={project.gitHubLink} 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    className="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors"
                   >
                     Ver repositório
                     <ExternalLink size={16} />

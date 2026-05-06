@@ -1,5 +1,5 @@
-import { Moon, Sun, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { Moon, Sun, Menu, X } from "lucide-react";
+import { useState } from "react";
 
 interface HeaderProps {
   isDark: boolean;
@@ -12,7 +12,7 @@ export function Header({ isDark, toggleTheme }: HeaderProps) {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false);
     }
   };
@@ -27,25 +27,33 @@ export function Header({ isDark, toggleTheme }: HeaderProps) {
 
           <div className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => scrollToSection('about')}
+              onClick={() => scrollToSection("about")}
               className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors"
             >
               Sobre
             </button>
             <button
-              onClick={() => scrollToSection('skills')}
+              onClick={() => scrollToSection("skills")}
               className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors"
             >
               Habilidades
             </button>
             <button
-              onClick={() => scrollToSection('projects')}
+              onClick={() => scrollToSection("projects")}
               className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors"
             >
               Projetos
             </button>
+
             <button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection("certification")}
+              className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors"
+            >
+              Certificados
+            </button>
+
+            <button
+              onClick={() => scrollToSection("contact")}
               className="text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-pink-400 transition-colors"
             >
               Contato
@@ -81,25 +89,25 @@ export function Header({ isDark, toggleTheme }: HeaderProps) {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4">
             <button
-              onClick={() => scrollToSection('about')}
+              onClick={() => scrollToSection("about")}
               className="text-left text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Sobre
             </button>
             <button
-              onClick={() => scrollToSection('skills')}
+              onClick={() => scrollToSection("skills")}
               className="text-left text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Habilidades
             </button>
             <button
-              onClick={() => scrollToSection('projects')}
+              onClick={() => scrollToSection("projects")}
               className="text-left text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Projetos
             </button>
             <button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection("contact")}
               className="text-left text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Contato

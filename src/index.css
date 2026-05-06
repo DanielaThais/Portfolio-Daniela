@@ -57,6 +57,12 @@
     }
   }
 
+  @keyframes border-spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
   .animate-fade-in {
     animation: fade-in 1s ease-out;
   }
@@ -72,5 +78,44 @@
   .animate-fade-in-up {
     animation: fade-in-up 0.6s ease-out forwards;
     opacity: 0;
+  }
+
+  .animated-border-card {
+    isolation: isolate;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .animated-border-card::before {
+    animation: border-spin 2.4s linear infinite;
+    background: conic-gradient(
+      from 0deg,
+      transparent 0deg,
+      transparent 85deg,
+      #ec4899 130deg,
+      #a855f7 190deg,
+      #3b82f6 250deg,
+      transparent 310deg,
+      transparent 360deg
+    );
+    content: "";
+    inset: -45%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 300ms ease;
+    z-index: -2;
+  }
+
+  .animated-border-card::after {
+    background: inherit;
+    border-radius: calc(1rem - 2px);
+    content: "";
+    inset: 2px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .animated-border-card:hover::before {
+    opacity: 1;
   }
 }

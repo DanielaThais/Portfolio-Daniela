@@ -26,16 +26,16 @@ const skillCategories = [
     color: "orange",
   },
   {
-    icon: Wrench,
-    title: "Ferramentas",
-    skills: ["VS Code", "MySQL Workbench", "n8n", "Flowise", "ClickUp"],
-    color: "pink",
-  },
-  {
     icon: Book,
     title: "Metodologias",
     skills: ["Scrum", "Kanban", "MVC", "APIs REST"],
     color: "yellow",
+  },
+  {
+    icon: Wrench,
+    title: "Ferramentas",
+    skills: ["VS Code", "MySQL Workbench", "n8n", "Flowise", "ClickUp"],
+    color: "pink",
   },
 ];
 
